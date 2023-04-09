@@ -1,0 +1,16 @@
+var numero1 = 10
+var numero2 = 5
+console.log("Adição: ")
+console.log(numero1, " + ", numero2, " = ", numero1 + numero2)
+console.log("\nSubtração: ")
+console.log(numero1, " - ", numero2, " = ", numero1 - numero2)
+console.log("\nMultiplicação: ")
+console.log(numero1, " x ", numero2, " = ", numero1 * numero2)
+console.log("\nDivisão: ")
+console.log(numero1, " / ", numero2, " = ", numero1 / numero2)
+console.log("\nPotência: ")
+console.log(numero1, " elevado a ", numero2, " = ", numero1 ** numero2)
+console.log("\nResto da divisão: ")
+console.log(numero1, " divido por ", numero2, " sobra: ", numero1 % numero2)
+console.log("\nPorcentagem: ")
+console.log(numero1, "% de ", numero2, " = ", numero1 * numero2 / 100)

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <title>Document</title>
+    </head>
+    <body>  
+    </body>
+    <script>
+        var nomeDigitado = window.prompt("Digite o nome da empresa: ")
+        var cnpjDigitado = window.prompt("Digite o CNPJ da empresa: ")
+        var tipoDigitado = window.prompt("Digite o tipo da empresa: ")
+        var quantidadeFuncionariosDigitado = window.prompt("Digite a quantidade de funcionários da empresa: ")
+        var empresa = 
+        {
+            nome: nomeDigitado,
+            cnpj: cnpjDigitado,
+            tipo: tipoDigitado,
+            quantidadeFuncionarios: quantidadeFuncionariosDigitado  
+        }
+        var lista = []  
+        lista.push(empresa)
+        document.writeln("Nome da empresa: ", lista[0].nome)
+        document.writeln("<br>CNPJ da empresa: ", lista[0].cnpj)
+        document.writeln("<br>Tipo da empresa: ", lista[0].tipo)
+        document.writeln("<br>Quantidade de funcionários da empresa: ", lista[0].quantidadeFuncionarios)
+    </script>
+</html>
