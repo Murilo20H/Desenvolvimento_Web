@@ -1,0 +1,33 @@
+var artista1 = 
+{
+    nome: "Tini",
+    anoLançamentoPrimeiroCd: 2016,
+    melhoresMusicas: ["Miénteme", "Oye", "22", "Consejo de Amor", "Bar"],
+    informacoesIntegrantes: ["Martina Alejandra Stoessel Muzlera", "Argentina", 26],
+    estilo: "Pop latino"
+}
+var artista2 = 
+{
+    nome: "Joshua Bassett",
+    anoLançamentoPrimeiroCd: 2021,
+    melhoresMusicas: ["Lie Lie Lie", "Secret", "Only A Matter Of Time", "Crisis", "Anyone Else"],
+    informacoesIntegrantes: ["Joshua Taylor Bassett", "EUA", 22],
+    estilo: "Pop"
+}
+var artista3 = 
+{
+    nome: "Jonas Brothers",
+    anoLançamentoPrimeiroCd: 2006,
+    melhoresMusicas: ["Sucker", "What A Man Gotta Do", "SOS", "Cool", "Only Human"],
+    informacoesIntegrantes: ["Nick Jonas, Joe Jonas, Kevin Jonas", "EUA", 18],
+    estilo: "Pop latino"
+}
+var listaArtistas = []
+listaArtistas.push(artista1)
+listaArtistas.push(artista2)
+listaArtistas.push(artista3)
+console.log(listaArtistas)
+listaArtistas.sort()
+console.log(listaArtistas)
+listaArtistas.pop()
+console.log(listaArtistas)

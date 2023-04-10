@@ -1,0 +1,24 @@
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <title>Document</title>
+    </head>
+    <body>  
+    </body>
+    <script>
+        var nomeFilme = window.prompt("Digite o nome do filme: ")
+        var anoLancamento = window.prompt("Digite o ano de lançamento do filme: ")
+        var nomeProtagonista = window.prompt("Digite o nome do(a) protagonista: ")
+        var filme1 = 
+        {
+            nome: nomeFilme,
+            lancamento: anoLancamento,
+            protagonista: nomeProtagonista
+        }
+        var database = []  
+        database.push(filme1)
+        document.writeln("Nome do filme: ", database[0].nome)
+        document.writeln("<br>Lançamento: ", database[0].lancamento)
+        document.writeln("<br>Protagonista: ", database[0].protagonista)
+    </script>
+</html>
