@@ -1,0 +1,20 @@
+.titulo
+{
+    background-color: rgb(195, 158, 255);
+    text-decoration: none;
+    color: rgb(83, 27, 212);
+    font-size: 45px;
+    text-align: center;
+}
+.p1
+{
+    text-decoration: underline;
+    font-size: 30px;
+}
+.contato
+{
+    background-color: rgb(195, 158, 255);
+    text-decoration: none;
+    font-size: 30px;
+    text-align: center;
+}
