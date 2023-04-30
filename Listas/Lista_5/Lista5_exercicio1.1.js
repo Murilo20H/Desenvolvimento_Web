@@ -39,17 +39,14 @@ let pessoa5 =
   
 }
 let listaPessoas = [pessoa1, pessoa2, pessoa3, pessoa4, pessoa5]
-let i = 0
-for (let value of listaPessoas) 
+for (let pessoa of listaPessoas) 
 {
-    if (listaPessoas[i].ehAdmin)
+    if (pessoa.ehAdmin)
     {
-        console.log("Olá ", listaPessoas[i].nome, ", bem vindo(a) admin do sistema, enviamos um email para ", listaPessoas[i].email, " para você criar uma senha")
-        i++
+        console.log("Olá ", pessoa.nome, ", bem vindo(a) admin do sistema, enviamos um email para ", pessoa.email, " para você criar uma senha")
     }
     else
     {
-        console.log("Olá ", listaPessoas[i].nome, ", bem vindo(a) usuário do sistema, enviamos um email para ", listaPessoas[i].email, " para você criar uma senha")
-        i++
+        console.log("Olá ", pessoa.nome, ", bem vindo(a) usuário do sistema, enviamos um email para ", pessoa.email, " para você criar uma senha")
     }
 }
