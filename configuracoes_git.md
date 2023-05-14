@@ -21,7 +21,16 @@
 
 ### Adicionar e subir alterações no repositório
     - Comandos
-        git add .
-        git commit -m "mensagem"
+        git add .                   | prepara arquivos para serem subidos no repositório
+        git commit -m "mensagem"    | adiciona mensagem
         git status
-        git push
+        git push                    | sobe arquivos no repositório
+
+### Criar branch e mudar de branch
+    - Comandos
+        git branch noma-da-branch       | cria uma branch
+        git checkout nome-da-branch     | muda de branch
+        git branch -a                   | listar todas as branches
+        git checkout -b nome-da-branch  | cria uma branch e troca para a branch criada
+        git branch -d noma-da-branch    | apaga uma branch
+        git pull                        | atualiza repositório
