@@ -1,0 +1,62 @@
+.inicio1 {
+    margin-top: 0px;
+    margin-left: 42%;
+    margin-bottom: 0px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 48px;
+    color: rgb(0, 70, 132);
+
+}
+
+.inicio2 {
+    margin-top: 0px;
+    margin-left: 13%;
+    margin-bottom: 0px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 48px;
+    color: rgb(0, 70, 132);
+
+}
+
+.musicas {
+    margin-left: 10%;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 28px;
+    color: rgb(0, 70, 132);
+}
+
+.id:hover
+{
+    color: rgb(0, 60, 255);
+    font-size: 32px;
+}
+
+.cantor:hover
+{
+    color: rgb(107, 39, 255);
+    font-size: 32px;
+}
+
+.nome:hover
+{
+    color: rgb(0, 60, 255);
+    font-size: 32px;
+}
+
+.tempoDuracao:hover
+{
+    color: rgb(107, 39, 255);
+    font-size: 32px;
+}
+
+.album:hover
+{
+    color: rgb(0, 60, 255);
+    font-size: 32px;
+}
+
+.genero:hover
+{
+    color: rgb(107, 39, 255);
+    font-size: 32px;
+}
