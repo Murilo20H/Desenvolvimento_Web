@@ -1,0 +1,24 @@
+<style>
+  body
+  {
+      background-color: rgb(209, 246, 255);
+  }
+</style>
+
+<body>
+  <p class="inicio1">{{ mensagem }}</p>
+
+  <span class="inicio2">Olá {{ nome }} você tem {{ idade }} anos e é um(a) {{ profissao }}</span>
+  <br>
+
+  <div class="musicas" *ngFor="let musica of listaMusicas">
+    <br>
+    <p class="id">Código de identificação: {{ musica.id }}</p>
+    <p class="cantor">Cantor: {{ musica.cantor }}</p>
+    <p class="nome">Nome da Música: {{ musica.nome }}</p>
+    <p class="tempoDuracao">Tempo de Duração da Música em Segundos: {{ musica.tempoDuracao }}</p>
+    <p class="album">Álbum: {{ musica.album }}</p>
+    <p class="genero">Gênero Musical: {{ musica.genero }}</p>
+    <br>
+  </div>
+</body>

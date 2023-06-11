@@ -1,3 +1,12 @@
+# Primeira aplicação usando o framework Angular (11/06/2023)
+
+## Comandos usados na aula
+    - npm install -g @angular/cli
+    - ng new nome-da-aplicação      | cria um novo projeto angular
+    - ng serve                      | comando para executar a aplicação
+
+<br><br><br><br>
+
 # POO em Typescript (04/06/2023)
 
 ## Comandos usados na aula
