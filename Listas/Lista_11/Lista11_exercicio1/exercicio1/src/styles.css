@@ -1,0 +1,35 @@
+.produtos
+{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+    margin-bottom: 55px;
+}
+.nome
+{
+    font-size: 29px;
+    color: black;
+}
+.descricao
+{
+    font-size: 18px;
+}
+.preco
+{
+    font-size: 20px;
+}
+.imagem
+{
+    border: 1px solid rgb(255, 255, 255);
+    margin: 5px;
+}
+.produto
+{
+    border: 7px solid rgb(0, 0, 255);
+    width: 380px;
+    text-align: center;
+}
+.inicio {
+    font-size: 35px;
+    text-align: center;
+}

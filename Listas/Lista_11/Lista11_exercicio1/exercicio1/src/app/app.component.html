@@ -1,0 +1,17 @@
+<style>
+  body {
+    background-color: rgb(215, 255, 250);
+  }
+</style>
+
+<body>
+  <p class="inicio">{{ mensagem }}</p>
+  <div class="produtos" *ngFor="let produto of listaProdutos">
+    <div class="produto">
+      <p class="nome">{{ produto.nome }}</p>
+      <p class="descricao">{{ produto.descricao }}</p>
+      <p class="preco">R${{ produto.preco }}</p>
+      <img class="imagem" [src]="produto.imagem" width="350px"/>
+    </div>
+  </div>
+</body>
